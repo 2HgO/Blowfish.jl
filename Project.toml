@@ -2,3 +2,9 @@ name = "Blowfish"
 uuid = "4a48ec48-d94f-48cc-b069-74d6d3e6e633"
 authors = ["Oghogho Odemwingie <odemwingieog@gmail.com>"]
 version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

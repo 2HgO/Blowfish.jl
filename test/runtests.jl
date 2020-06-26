@@ -1,7 +1,6 @@
 import Blowfish
 
 using Test
-using Dates
 
 mutable struct CryptTest
 	key::Array{UInt8, 1}
